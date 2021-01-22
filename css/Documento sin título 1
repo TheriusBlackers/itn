@@ -1,0 +1,157 @@
+
+
+
+PARA LOS BANNER LOS CARD NUEVOS
+
+.cards-banner-one {
+    width        : 100%;
+    height       : 350px;
+    background   : url(Banner1.jpg) no-repeat center center/cover;
+    margin-bottom: 40px
+}
+
+.cards-banner-one .content {
+    width  : 40%;
+    padding: 90px 0 0 30px;
+    color  : #fff
+}
+
+.cards-banner-one h2,
+.cards-banner-one p {
+    margin: 10px 0 20px 0
+}
+
+.cards-banner-two {
+    width        : 100%;
+    height       : 350px;
+    background   : url(Banner2.jpg) no-repeat center center/cover;
+    margin-bottom: 40px
+}
+
+.cards-banner-two .content {
+    width  : 50%;
+    padding: 100px 0 0 30px;
+    color  : #fff
+}
+
+.cards-banner-two h2,
+.cards-banner-two p {
+    margin: 10px 0 20px 0
+}
+
+.cards-banner-three {
+    width        : 100%;
+    height       : 350px;
+    background   : url(Banner3.jpg) no-repeat center center/cover;
+    margin-bottom: 40px
+}
+
+.cards-banner-three .content {
+    width  : 50%;
+    padding: 100px 0 0 30px;
+    color  : #fff
+}
+
+.cards-banner-three h2,
+.cards-banner-three p {
+    margin: 10px 0 20px 0
+}
+
+
+
+@MEDIA
+
+@media (max-width:700px) {
+    .menu-btn {
+        display: block
+    }
+
+    .nav-main ul.nav-menu {
+        display   : block;
+        position  : absolute;
+        top       : 0;
+        left      : 0;
+        background: #2f3640;
+        height    : 100%;
+        padding   : 30px;
+        opacity   : .9;
+        transform : translateX(-400px);
+        transition: transform .5s ease-in-out
+    }
+
+    .nav-main ul.nav-menu.show {
+        transform: translateX(-20px)
+    }
+
+    .nav-main ul.nav-menu li {
+        padding  : 20px;
+        font-size: 14px
+    }
+
+    .nav-main ul.nav-menu-right {
+        margin-right: 40px
+    }
+
+    .news-cards {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .cards-banner-one.content {
+        width: 80%
+    }
+}
+
+@media (max-width:500px) {
+    .news-cards {
+        grid-template-columns: 1fr
+    }
+
+    .news-cards img {
+        height: 270px
+    }
+
+    .cards-banner-one .content,
+    .cards-banner-three .content,
+    .cards-banner-two .content {
+        width  : 100%;
+        padding: 60px 20px
+    }
+
+    .footer-links.footer-container {
+        grid-template-columns: 1fr
+    }
+}
+
+@media (max-width:1182px) {
+    .menu-btn {
+        display: block
+    }
+
+    .nav-main ul.nav-menu {
+        display   : block;
+        position  : absolute;
+        top       : 0;
+        left      : 0;
+        background: #2f3640;
+        height    : 100%;
+        padding   : 30px;
+        opacity   : .9;
+        transform : translateX(-400px);
+        transition: transform .5s ease-in-out
+    }
+
+    .nav-main ul.nav-menu.show {
+        transform: translateX(-20px)
+    }
+
+    .nav-main ul.nav-menu li {
+        padding  : 20px;
+        font-size: 14px
+    }
+
+    .nav-main ul.nav-menu-right {
+        margin-right: 40px
+    }
+}
+
+
