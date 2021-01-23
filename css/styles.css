@@ -30,6 +30,10 @@ body {
     font-family: "Montserrat", sans-serif
 }
 
+.search{
+ display: none;
+}
+
 .nav-menu a {
     color: #ffffff
 }
@@ -215,7 +219,7 @@ hr {
 Display None*/
 
 .links {
-    display        : none;
+    
     align-items    : center;
     justify-content: center
 }
@@ -225,7 +229,7 @@ Display None*/
 }
 
 .footer-links {
-    display: none;
+    
     background-image: url(../img/Patron/diamond-zag/diamond-zag.png);
     color           : #616161;
     font-size       : 12px;
